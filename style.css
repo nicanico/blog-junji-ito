@@ -16,9 +16,10 @@ header{
 
 }
 main{
-    height: 900px;
+    height: 1100px;
     background-color: lightgrey;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     
 }
 .intro-container{
@@ -40,13 +41,17 @@ main{
 .texto-biografico{
     font-style: italic;
 }
-.obra-uzumaki{
-
-}
 .topicos-container{
     text-align: center;
 }
+a.link-wikipedia{
+    color: #363636;
+}
+a.link-amazon{
+    color: #363636;
+}
 footer{
-    height: 150px;
+    height: 100px;
+    text-align: center;
     background-color: black;
 }
