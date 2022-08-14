@@ -54,6 +54,9 @@ a.link-wikipedia{
 a.link-amazon{
     color: #363636;
 }
+a:hover{
+    color:black;
+}
 footer{
     height: 100px;
     color: #363636;
