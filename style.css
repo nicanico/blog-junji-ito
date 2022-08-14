@@ -21,8 +21,8 @@ header{
 }
 main{
     height: 1100px;
-    margin-right: 800px;
-    margin-left: 800px;
+    margin-right: 400px;
+    margin-left: 400px;
     background-color: lightgrey;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -46,8 +46,8 @@ main{
 .topicos-container{
     margin: auto;
     text-align: justify;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
     display: flexbox;
     flex-flow: row;
 }
