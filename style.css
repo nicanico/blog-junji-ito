@@ -5,9 +5,6 @@
     background-color:  lightgrey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-    box-sizing: 100%;
-}
 header{
     display: inline-flex;
     height: 160px;
