@@ -5,10 +5,14 @@
     background-color:  lightgrey;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+    box-sizing: 100%;
+}
 header{
-    
+    display: inline-flex;
     height: 160px;
-    background-image: url(img/visions.jpg) ;
+    background-image: url(img/visions.jpg);
+    display: flex;
     background-color: black;
     background-repeat: no-repeat, repeat-x;
     background-position: center;
@@ -17,6 +21,8 @@ header{
 }
 main{
     height: 1100px;
+    margin-right: 800px;
+    margin-left: 800px;
     background-color: lightgrey;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -34,15 +40,16 @@ main{
     text-align: center;
     font-style: italic;
 }
-.biografia-container{
-    align-items: center;
-    text-align: center;
-}
 .texto-biografico{
     font-style: italic;
 }
 .topicos-container{
-    text-align: center;
+    margin: auto;
+    text-align: justify;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flexbox;
+    flex-flow: row;
 }
 a.link-wikipedia{
     color: #363636;
@@ -52,6 +59,7 @@ a.link-amazon{
 }
 footer{
     height: 100px;
+    color: #363636;
     text-align: center;
     background-color: black;
 }
