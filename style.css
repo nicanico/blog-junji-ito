@@ -17,7 +17,7 @@ header{
 
 }
 main{
-    height: 1100px;
+    height: 1300px;
     margin-right: 400px;
     margin-left: 400px;
     background-color: lightgrey;
@@ -56,6 +56,10 @@ a.link-amazon{
 }
 a:hover{
     color:black;
+}
+.imagem-venus{
+    max-width: 500px;
+    max-height: 250px;
 }
 footer{
     height: 100px;
