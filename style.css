@@ -40,6 +40,10 @@ main{
 .texto-biografico{
     font-style: italic;
 }
+.obra-uzumaki{
+    max-width: 500px;
+    max-height: 250px;
+}
 .topicos-container{
     margin: auto;
     text-align: justify;
@@ -66,4 +70,41 @@ footer{
     color: #363636;
     text-align: center;
     background-color: black;
+}
+@media (max-width: 640px){
+    header{
+        display: flex;
+    }
+    main{
+        height: 170vh;
+        margin-right: 5vw;
+        margin-left: 5vh;
+    }
+    .intro-container{
+        margin-right: 5vw;
+        margin-left: 5vh;
+    }
+    .foto-ito{
+        align-items: center;
+        max-width: 70vw;
+        max-height: 70vh;
+    }
+    .obra-uzumaki{
+        max-width: 80vw;
+        max-height: 80vh;
+    }
+    .topicos-container{
+        margin-right: 5vw;
+        margin-left: 5vh;
+    }
+    .imagem-venus{
+        display: none;
+    }
+    footer{
+        display: none;
+        height: 10vh; 
+        
+        /* height adicionado caso queira adição do footer */
+        
+    }
 }
